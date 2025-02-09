@@ -4,8 +4,8 @@ import time
 from google.cloud import pubsub_v1
  
 # Google Cloud Pub/Sub configuration
-PROJECT_ID = "cnp-datafoundation-dev1"
-TOPIC_ID = "to_topic"
+PROJECT_ID = "<YOUR PROJECT ID>"
+TOPIC_ID = "<YOUR PUB/SUB TOPIC ID>"
  
 def generate_sales_data():
     """Generates random sales data."""
